@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "reproduce": "npm run ts-node script/test.ts",
     "test": "echo \"Error: no test specified\" && exit 1",
     "ts-node": "ts-node --compiler-options \\{\\\"module\\\":\\\"commonjs\\\"\\,\\\"jsx\\\":\\\"react-jsx\\\"\\}"
   },
