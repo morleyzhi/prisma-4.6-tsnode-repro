@@ -21,7 +21,7 @@ Actual: This error:
 
 `TypeError: Cannot read properties of undefined (reading 'create')`
 
-## Prisma version location
+## Prisma versions
 
 Rolling Prisma back to 4.5.0 "fixes" the script:
 
@@ -46,3 +46,7 @@ npm install --save-dev prisma@4.13.0 @prisma/client@4.13.0 && \
   npx prisma generate && \
   npm run reproduce
 ```
+
+## Other failed fixes
+
+- Moving prisma.ts to ./script (or instantiating the client directly)
