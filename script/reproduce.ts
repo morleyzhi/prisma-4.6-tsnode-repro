@@ -4,7 +4,7 @@ async function main() {
   const user = await prisma.user.create({
     data: {
       name: "Alice",
-      email: "alice@prisma.io",
+      email: "" + Math.random() + "@prisma.io",
     },
   });
   console.log(user);
