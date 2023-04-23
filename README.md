@@ -38,3 +38,11 @@ npm install --save-dev prisma@4.6.1 @prisma/client@4.6.1 && \
   npx prisma generate && \
   npm run reproduce
 ```
+
+4.13.0 doesn't work either:
+
+```
+npm install --save-dev prisma@4.13.0 @prisma/client@4.13.0 && \
+  npx prisma generate && \
+  npm run reproduce
+```
